@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>$(NetStandardVersion)</TargetFramework>
+    <Description>Read-side pricing aggregates and views.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Petabridge.Collections" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Akka.CQRS\Akka.CQRS.csproj" />
+  </ItemGroup>
+
+</Project>

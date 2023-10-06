@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>$(NetStandardVersion)</TargetFramework>
+    <Description>Pricing analytics actors.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Akka.Persistence.Query" />
+    <PackageReference Include="Akka.Persistence.Extras" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Akka.CQRS.Pricing\Akka.CQRS.Pricing.csproj" />
+    <ProjectReference Include="..\Akka.CQRS.Subscriptions\Akka.CQRS.Subscriptions.csproj" />
+  </ItemGroup>
+</Project>

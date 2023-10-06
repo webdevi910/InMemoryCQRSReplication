@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Petabridge.Cmd palettes for accessing the pricing system.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Petabridge.Cmd.Host" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Akka.CQRS.Pricing\Akka.CQRS.Pricing.csproj" />
+  </ItemGroup>
+
+</Project>

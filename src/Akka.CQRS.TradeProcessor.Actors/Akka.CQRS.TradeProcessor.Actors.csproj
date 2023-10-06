@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>$(NetStandardVersion)</TargetFramework>
+    <Description>Matching engine actors.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Akka.Persistence" />
+    <PackageReference Include="Akka.Persistence.Extras" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Akka.CQRS.Matching\Akka.CQRS.Matching.csproj" />
+    <ProjectReference Include="..\Akka.CQRS.Subscriptions\Akka.CQRS.Subscriptions.csproj" />
+  </ItemGroup>
+
+</Project>
